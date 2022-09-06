@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         <thead>
+            <td>date</td>
+            <td>county</td>
+            <td>state</td>
+            <td>flips</td>
+	    <td>cases</td>
+            <td>deaths</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row["date"]}}</td>
+               <td>{{row["county"]}}</td>
+               <td> {{ row["state"]}}</td>
+               <td>{{row['flips']}}</td>
+               <td>{{row['cases']}}</td>
+               <td>{{row['deaths']}}</td>	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+   </body>
+</html>
