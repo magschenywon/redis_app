@@ -1,1 +1,1 @@
-A simple webpage telling you the covid-19 cases in US counties
+A simple webpage telling you the covid-19 cases in US counties with flips + cases + deaths
