@@ -1,1 +1,3 @@
-A simple webpage telling you the covid-19 cases in US counties with flips + cases + deaths
+## Is this an Intro even? 
+A simple webpage telling you the new covid-19 flips,cases and deaths in US counties </br>
+*This project is done in 2020 so the data is oudated
