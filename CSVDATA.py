@@ -20,7 +20,7 @@ def getString(mkey):
     return redis1.get(mkey) 
 
 def getDataFromMySQL():
-    conn=mysql.connector.connect(user='root', password='827826857AiC',
+    conn=mysql.connector.connect(user='root', password='',
                               host='127.0.0.1',
                               database='CSVDATA')
     #conn = mysql.connector.connect("127.0.0.1","root@localhost","827826857AiC","CSVDATA")
